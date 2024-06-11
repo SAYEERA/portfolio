@@ -81,7 +81,7 @@ function About() {
         </div>
       </Box>
 
-      <Box sx={{ display: 'flex', justifyContent: 'center', my: 2, px: 2 }}>
+      <Box sx={{ display: 'flex', justifyContent: 'center', my: 2, px: 2, color:'white'  }}>
         <Typography>
           I worked for Tata Consultancy Services at Hyderabad, India as a Associate Software Engineer where my responsibilities included:
           <List>
@@ -93,7 +93,7 @@ function About() {
         </Typography>
       </Box>
 
-      <Box sx={{ display: 'flex', justifyContent: 'center', my: 2, px: 2 }}>
+      <Box sx={{ display: 'flex', justifyContent: 'center', my: 2, px: 2 ,color:'white' }}>
         <Typography>
           I am currently a graduate studentt at the University of Missouri - Columbia. You can view my  <Link component={RouterLink} to="/projects">projects</Link>.
         </Typography>
