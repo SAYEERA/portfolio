@@ -33,17 +33,17 @@ function ProjectDetails() {
     },[id])
   return (
     <div>
-        <Typography m={1} component="h1" fontFamily={'"Helvetica Neue"'} sx={{display:'flex',justifyContent:'center'}}>
+        <Typography m={1} component="h1" fontFamily={'"Helvetica Neue"'} sx={{display:'flex',justifyContent:'center',color:'white' }}>
             {project?.title}
         </Typography>
-        <Typography>
+        <Typography sx={{ color: 'white' }}>
             {project?.info}
         </Typography>
-        {project?.youtube.length>0 && <Link sx={{display:'flex',justifyContent:'center',m:1}}  href={project?.youtube} target="_blank" rel="noopener noreferrer">{project?.youtube}</Link>}
-        <div style={{ display: 'flex', justifyContent: 'center', maxHeight:"80vh",marginTop: '30px'}}>
-            <Box component="img" src={project?.images.flow} sx={{maxWidth:"50vh"}}/>
+        {project?.youtube.length>0 && <Link sx={{display:'flex',justifyContent:'center',m:1, color:'white' }}  href={project?.youtube} target="_blank" rel="noopener noreferrer">{project?.youtube}</Link>}
+        <div style={{ display: 'flex', justifyContent: 'center', maxHeight:"80vh",marginTop: '30px',color:'white' }}>
+            <Box component="img" src={project?.images.flow} sx={{maxWidth:"50vh", color:'white' }}/>
         </div>
-        <span style={{display:'flex',flexDirection:'row-reverse',margin:'20px'}}>
+        <span style={{display:'flex',flexDirection:'row-reverse',margin:'20px', color:'white' }}>
             <Button variant='outlined'>
             <Link component={RouterLink} to="/projects" underline="none">
       <Stack alignItems="center" direction="row">

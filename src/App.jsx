@@ -1,6 +1,7 @@
 import { Box, CssBaseline, Toolbar } from "@mui/material";
 import Navbar from "./components/Navbar/Navbar";
 import PageRoutes from "./Routes/PageRoutes";
+import { yellow } from "@mui/material/colors";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           height="100%"
           width="100%"
           overflow="auto"
+         
         >
           <Toolbar />
           <PageRoutes />

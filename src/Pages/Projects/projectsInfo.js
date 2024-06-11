@@ -22,6 +22,7 @@ export const projectsInfo = [
       'images': {
         'card': RISECard,
         'flow': RISEInfo,
+      
       },
       'description': 'Developed a web application to analyze and enhance nitrogen (N) fertilizer recommendations for crop production, incorporating advanced soil health measurements and biological nitrogen efficiency enhancers.',
       'info': 'Current nitrogen fertilizer recommendations do not adequately account for the biology of nitrogen processes, making it difficult to predict soil organic pools ability to supply and retain crop-available nitrogen.This gap limits the effectiveness of current nitrogen management practices and increases uncertainty in fertilizer recommendations. Developed a web application to enhance nitrogen (N) fertilizer recommendations by integrating "soil health" measurements, weather data, and landscape variations. Using Django and Python, the backend processes complex data and provides accurate analyses of N-rate impacts from biological enhancers and soil health practices. The application offers an interactive, user-friendly interface built with JavaScript, allowing users to visualize and understand the effects of different N fertilizer strategies on crop productivity. The system connects to an MSSQL server using MySQL database, ensuring efficient data storage, retrieval, and management, thus enhancing the applications performance and reliability.',

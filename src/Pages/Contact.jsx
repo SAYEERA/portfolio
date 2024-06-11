@@ -3,7 +3,7 @@ import { Card, CardContent, Typography,Link } from '@mui/material'
 import {AnimatedPage} from '@/components/Animation/Animations'
 function Contact() {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '40vh' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '40vh' ,color:'white' }}>
     <AnimatedPage>
       <Card sx={{width:"80vh",display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <CardContent>

@@ -14,10 +14,9 @@ function Home() {
             <img src={sayeerapic} style={{width:'40%', height: '15%'}} />
           </Grid>
         </Grid>
-        <Box sx={{ mt: 5, px: 2, display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+        <Box sx={{ mt: 5, px: 2, display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center',color:'white' }}>
           <Typography variant="h6">
-          I am Sayeera Shaik, a passionate software engineer with a Master's in Computer Science from the University of Missouri-Columbia. I have led and developed optimized workflow solutions pertaining web applications, APIs, and
-           machine learning projects using agile methodologies, and various programming languages, I thrive at solving complex problems and driving innovation.
+          I am Sayeera Shaik, a passionate software engineer with a Master's in Computer Science from the University of Missouri-Columbia. I excel in leading and developing optimized web applications, APIs, and machine learning projects using agile methodologies and various programming languages, driving innovation and solving complex problems.
            </Typography>
           <Typography variant="h6" sx={{ mt: 2 }}>
             You can explore my <Link component={RouterLink} to="/projects">projects</Link>. Feel free to <Link component={RouterLink} to="/contact">contact</Link> me.
